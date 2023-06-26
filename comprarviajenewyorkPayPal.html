@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/comprapaypal.css">
+        <meta charset="utf-8">
+        <title>Comprar con PayPal</title>
+    </head>
+    <body>
+    <center>
+        <h1>Introduzca sus datos de PayPal</h1>
+        <form>
+            <label for="cuentapaypal" class="fuente">Cuenta PayPal: </label>
+            <input type="text" id="cuentapaypal" name="cuentapaypal">
+            <br>
+            <label for="contraseña" class="fuente">introduce tu contraseña: </label>
+            <input type="text" id="contraseña" name="contraseña">
+        </form>
+        <br>
+        <button onclick="redireccionar()">Comprar</button>
+
+        <script>
+        function redireccionar() {
+          window.location.href = "viajecomprado.html";
+        }
+        </script>
+    </center>
+    </body>
+</html>

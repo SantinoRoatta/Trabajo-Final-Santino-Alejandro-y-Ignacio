@@ -1,0 +1,45 @@
+.formatogeneral{
+  color: black; text-align: justify;
+}
+.imagen {
+  width: 300px; height: auto; border: 1px solid black; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); margin: 10px; padding: 5px;
+}
+.titulo{
+  text-decoration: underline; 
+  text-align: center;
+  font-family: 'Gill Sans';
+}
+.links{
+  color: rgb(0, 255, 242); text-size-adjust: 25%; text-decoration: underline;
+}
+.centrarimagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.colordefuente{
+  color: rgb(0, 0, 0);
+}
+.fuente{
+  font-family: Arial;
+  font-size: medium;
+  font-weight: 200;
+  font-style: normal;
+  font: 200;
+}
+.edición {
+  width: 300px;
+  height: auto;
+  border: 1px solid black; 
+  border-radius: 5px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  margin: 10px; 
+  padding: 5px;
+}
+.colordelinks{
+  color: rgb(0, 255, 242);
+}
+.colorderesaltados{
+  color: rgb(255, 251, 0);
+}

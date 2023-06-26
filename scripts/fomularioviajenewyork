@@ -1,0 +1,35 @@
+function comprarElViaje() {
+    var numeroTarjeta = document.getElementById("numerotarjeta").value;
+    var nombreApellido = document.getElementById("nombreyapellido").value;
+    var fechaVencimiento = document.getElementById("fechavencimiento").value;
+    var codigoSeguridad = document.getElementById("codigodeseguridad").value;
+
+    // Validar el número de tarjeta (debe tener 16 dígitos)
+    if (numeroTarjeta.length !== 16) {
+        alert("El número de tarjeta debe tener 16 dígitos.");
+        return; // Detener la ejecución de la función si la validación falla
+    }
+
+    // Validar el nombre y apellido (debe tener al menos 3 caracteres)
+    if (nombreApellido.length < 3) {
+        alert("El nombre y apellido del titular debe tener al menos 3 caracteres.");
+        return;
+    }
+
+    // Validar el formato de la fecha de vencimiento (formato: MM/AA)
+    var fechaVencimientoPattern = /^\d{2}\/\d{2}$/;
+    if (!fechaVencimientoPattern.test(fechaVencimiento)) {
+        alert("La fecha de vencimiento debe tener el formato MM/AA.");
+        return;
+    }
+
+    // Validar el código de seguridad (debe tener 3 dígitos)
+    if (codigoSeguridad.length !== 3) {
+        alert("El código de seguridad debe tener 3 dígitos.");
+        return;
+    }
+
+    // Si todas las validaciones pasan, puedes realizar las acciones necesarias
+    // Por ejemplo, puedes enviar los datos a un servidor o procesar la compra.
+    alert("¡Gracias por su compra!");
+}

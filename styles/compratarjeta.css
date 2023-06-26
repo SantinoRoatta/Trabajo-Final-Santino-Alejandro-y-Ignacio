@@ -1,0 +1,9 @@
+body{
+    background-image: url("tdc.jpg"); background-size: cover; background-repeat: no-repeat; padding-top: 2,5px; padding-bottom: 850px;
+}
+h1{
+    font-family: 'Trebuchet MS';
+}
+.fuente{
+    font-family: Arial;
+}

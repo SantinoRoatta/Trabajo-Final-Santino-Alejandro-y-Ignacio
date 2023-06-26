@@ -1,0 +1,19 @@
+.colordefuente{
+    color:blue;
+}
+.fuente{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 200;
+    font-style: normal;
+    font: 200;
+}
+.centrado{
+    text-align: center; text-decoration: solid;
+  }
+.formatogeneral{
+    color: black; text-align: center;
+}
+.ampliaciondepag{
+    padding-top: 300px;
+}

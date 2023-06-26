@@ -1,0 +1,23 @@
+.imagenes{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  }
+.links{
+  color: rgb(251, 255, 0); text-size-adjust: 25%; text-decoration: underline;
+}
+.titulo{
+  color: rgb(240, 231, 231); text-size-adjust: 25%; text-decoration: underline;
+}
+body{
+  background-image: url("agenciadeviajes.jpg"); background-size: cover; background-repeat: no-repeat; padding-top: 0,000001px; padding-bottom: 800px;
+}
+.fuente{
+  text-size-adjust: 80%; color: black; font-family: Arial; font-size: larger; font-weight: 200; font-style:normal; font: 200;
+}
+.centrado{
+  text-align: center;
+}
+/* Estilo CSS para el video */
+.video{
+  width: 20%; /* Ajusta el ancho del video al "X"% del contenedor */height: 60%; /* Permite que la altura se ajuste proporcionalmente al ancho */text-align: center;
+}

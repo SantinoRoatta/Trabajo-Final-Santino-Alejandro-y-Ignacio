@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/compratarjeta.css">
+    <meta charset="UTF-8">
+    <title>Datos de pago</title>
+</head>
+<body>
+    <center>
+    <h1>Introduzca sus datos de pago</h1>
+    <form>
+        <label for="numerotarjeta" class="fuente">Número de tarjeta:</label>
+        <input type="text" id="numerotarjeta" name="numerotarjeta">
+        <br>
+        <label for="nombreyapellido" class="fuente">Nombre y apellido del titular:</label>
+        <input type="text" id="nombreyapellido" name="nombreyapellido">
+        <br>
+        <label for="fechavencimiento" class="fuente">Fecha de vencimiento:</label>
+        <input type="text" id="fechavencimiento" name="fechavencimiento">
+        <br>
+        <label for="codigodeseguridad" class="fuente">Código de seguridad:</label>
+        <input type="text" id="codigodeseguridad" name="codigodeseguridad">
+    </form>
+    <br>
+    <button onclick="redireccionar()">Comprar</button>
+
+        <script>
+        function redireccionar() {
+          window.location.href = "viajecomprado.html";
+        }
+        </script>
+    </center>
+</link>
+</body>
+</html>

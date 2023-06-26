@@ -1,0 +1,9 @@
+body{
+    background-image: url("logo-Paypal.png"); background-size: cover; background-repeat: no-repeat; padding-top: 1px; padding-bottom: 1px;
+}
+h1{
+    font-family:'Franklin Gothic Medium';
+}
+.fuente{
+    font-family: Arial;
+}
